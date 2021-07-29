@@ -1,0 +1,58 @@
+*{
+    margin: 0;;
+    padding: 10px;
+    
+}
+body{
+    height: 94vh;
+    background-image: url(image-from-rawpixel-id-2210775-jpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width: 40vw;
+    height: 53vh;
+    background-color: bisque;
+    position: relative;
+    left: 30vw;
+    top:20vh;
+    border: 4px solid black;
+    box-shadow: 15px 20px rgb(241, 149, 87);
+    
+}
+
+
+input[type="text"], input[type="email"],input[type="number"],input[type="submit"]
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    outline: none;
+}
+
+input[type="submit"]
+{
+    width: 30%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 0;
+    background-color: rgb(255, 190, 147);
+    box-shadow: 3px 3px aqua;
+    cursor: pointer;
+    
+}
+input[type="submit"]:hover
+{
+    background-color: aqua;
+    box-shadow: 3px 3px rgb(255, 190, 147); 
+}   
